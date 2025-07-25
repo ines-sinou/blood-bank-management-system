@@ -36,6 +36,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50px;
+    gap: 10px;
 }
 .bg-transparent-blur{
     backdrop-filter: blur(20px);
