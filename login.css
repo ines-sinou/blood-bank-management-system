@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 35%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.loginform{
+    width: 40%;
+    height: 80%;
+    background-image: url("assets/bloodshape.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-transparent-blur{
+    backdrop-filter: blur(20px);
+    box-shadow: white 0px 0px 20px;
+}
+ .text-link {
+      text-align: center;
+      margin-top: 1rem;
+      display: block;
+      color: wheat;
+    }
+
+    .text-link a {
+        color: white;
+      text-decoration: underline;
+    }
+
+    .text-link a:hover {
+      color: crimson;
+    }

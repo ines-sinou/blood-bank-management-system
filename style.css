@@ -49,8 +49,8 @@
     margin: 10px;
 }
 .btn-request {
-    background-color: #dc3545;
-    border: none;
+    border: 2px solid #dc3545;
+    color: #dc3545;
     padding: 12px 30px;
     font-size: 1.1rem;
     margin: 10px;
@@ -59,7 +59,8 @@
     background-color: #c82333;
 }
 .btn-request:hover {
-    background-color: #0056b3;
+    background-color: crimson;
+    color: white;
 }
 .image{
     width: 60%;
