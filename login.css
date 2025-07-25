@@ -7,9 +7,10 @@ body{
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: whitesmoke;
+   background-image: linear-gradient(90deg, pink, white, pink );
     justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 .image{
     width: 35%;
@@ -53,5 +54,5 @@ body{
     }
 
     .text-link a:hover {
-      color: green;
+      color: crimson;
     }
