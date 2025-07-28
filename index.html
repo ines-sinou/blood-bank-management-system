@@ -10,10 +10,25 @@
     <link rel="shortcut icon" href="assets/haima.png" type="image/x-icon">
 </head>
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+  <div class="container-fluid">
+     <img src="assets/haima.png" alt="Haima Logo" width="90" height="90" >
+     <span style="font-size: 30px;">Haima</span>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home"><i class="fa-solid fa-home text-dark"></i> Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about"><i class="fas fa-info-circle text-dark"></i>About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#features"><i class="fas fa-star text-dark"></i>Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact"><i class="fa-solid fa-phone text-dark"></i>Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
    <div class="container-fluid">
-    <div class="navbar"></div>
    
-    <section id="home">
+    <section id="home" class="section">
         <div class="body">
             <div class="textbox">
                 <div class="content">
@@ -35,12 +50,12 @@
 
    <section id="about" class="section">
     <div class="container">
-        <h2 class="text-center">About Us</h2>
+        <h2 class="text-center fw-bold">About Us</h2>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 fs-4">
                 <p>We are dedicated to saving lives by connecting blood donors with those in need. Our mission is to ensure a safe and reliable blood supply for hospitals and patients across the region.</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 fs-4">
                 <p>With a network of committed donors and advanced facilities, we strive to make blood donation and request processes seamless and impactful.</p>
             </div>
         </div>
@@ -49,25 +64,25 @@
 
 <section id="features" class="py-5">
         <div class="container">
-            <h2 class="text-center fw-bold mb-5">Why Choose Haima?</h2>
+            <h2 class="text-center fw-bold text-danger mb-5">Why Choose Haima?</h2>
             <div class="row">
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="card feature-card p-4 text-center">
-                        <i class="fas fa-heartbeat fa-3x text-danger mb-3"></i>
+                        <i class="fa-solid fa-heartbeat fa-3x text-danger mb-3"></i>
                         <h3 class="card-title">For Donors</h3>
                         <p class="card-text">Easily register, track your donations, and get real-time notifications for blood drives near you.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="card feature-card p-4 text-center">
-                        <i class="fas fa-search fa-3x text-danger mb-3"></i>
+                        <i class="fa-solid fa-search fa-3x text-danger mb-3"></i>
                         <h3 class="card-title">For Requesters</h3>
                         <p class="card-text">Find compatible donors quickly, send requests, and coordinate with ease.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="card feature-card p-4 text-center">
-                        <i class="fas fa-user-shield fa-3x text-danger mb-3"></i>
+                        <i class="fa-solid fa-user-shield fa-3x text-danger mb-3"></i>
                         <h3 class="card-title">Donor Support</h3>
                         <p class="card-text">Access guidance, health tips, and reminders to ensure a smooth and safe donation experience.</p>
                     </div>
@@ -76,5 +91,42 @@
             </div>
         </div>
     </section>
+
+    
+<section id="contact" class="section bg-light">
+  <div class="container">
+    <h2 class="text-center text-danger mb-5">Contact Us</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message:</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-danger">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="bg-danger text-white text-center py-3">
+  <div class="container">
+    <p><i class="fa-solid fa-envelope"></i> info@haima.org</p>
+        <p><i class="fa-solid fa-phone"></i> +237 676 454 328</p>
+    <p class="mb-0">&copy; 2025 Haima Blood Bank  Management System | All rights reserved.</p>
+  </div>
+</footer>
+
+
 </body>
 </html>
