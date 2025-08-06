@@ -21,7 +21,6 @@ nav{
 
 .navbar .nav-link:hover {
     color: red;
-    text-decoration: underline;
 }
 .body{
     width: 100%;
@@ -88,11 +87,9 @@ nav{
 }
 .section{
     min-width: 100%;
-
-}
-.section {
     padding: 60px 0;
 }
+ 
 .section h2 {
     color: #dc3545;
     margin-bottom: 30px;
